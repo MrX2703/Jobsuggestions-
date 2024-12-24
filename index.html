@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Job Finder</h1>
+    <p>Find jobs that match your qualifications!</p>
+  </header>
+
+  <main>
+    <section class="search">
+      <h2>Search for Jobs</h2>
+      <form id="jobForm">
+        <label for="qualification">Enter Your Qualification:</label>
+        <input type="text" id="qualification" placeholder="e.g., B.Tech, Diploma, MBA" required>
+        <button type="submit">Find Jobs</button>
+      </form>
+    </section>
+
+    <section id="results">
+      <h2>Job Results</h2>
+      <ul id="jobList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Job Finder. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
